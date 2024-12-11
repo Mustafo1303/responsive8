@@ -1,0 +1,487 @@
+body{
+    background-color: #1F242D;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+nav img{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 40px;
+    font-family: "Poppins";
+font-size: 17px;
+font-weight: 400;
+line-height: 25.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-left: -130px;
+    margin-top: 30px;
+    transition: 1s;
+}
+li{
+    transition: 1,6s;
+}
+li:hover{
+    color: #00EEFF;
+    font-size: 18px;
+    
+}
+h2{
+    margin-top: 150px;
+    margin-left: 80px;
+    font-family: "Poppins";
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+}
+.big{
+    font-family: "Poppins";
+font-size: 56px;
+font-weight: 700;
+line-height: 72.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.blue{
+    font-family: "Poppins";
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #00EEFF;
+}
+.lorem{
+    width: 636.24px;
+height: 23px;
+font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-left: 70px;
+color: white;
+}
+button{
+    width: 176.59px;
+height: 45px;
+margin-top: -160px;
+margin-left: 69px;
+border-radius: 40px;
+box-shadow: 0px 0px 10px 0px #00EEFF;
+background-color: #00EEFF;
+position: relative;
+top: -440px;
+}
+.pic{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 69px;
+    gap: 10px;
+    margin-top: 60px;
+}
+.pro{
+    width: 504px;
+height: 611.67px;
+margin-left: 700px;
+position: relative;
+top: -400px;
+}
+main{
+    margin-top: -340px;
+}
+.text{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.box{
+    width: 380.27px;
+height: 339px;
+background-color: #323946;
+border-radius: 20px;
+border: 2px;
+color: white;
+}
+.box img{
+   margin-left: 130px;
+   margin-top: 30px;
+}
+.text1{
+    font-family: "Poppins";
+font-size: 26px;
+font-weight: 700;
+line-height: 39px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.text2{
+    width: 319.34px;
+height: 179px;
+font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.button{
+    position: relative;
+    top: -40px;
+    left: 5px;
+    font-weight: 900;
+    box-shadow: 0px 0px 10px 0px #00EEFF;
+
+}
+.buton1{
+    position: relative;
+    top: -40px;
+    left: 15px;
+    font-weight: 900;
+    box-shadow: 0px 0px 10px 0px #00EEFF;
+
+}
+.buto{
+    position: relative;
+    top: -20px;
+    left: 15px;
+    font-weight: 900;
+    box-shadow: 0px 0px 10px 0px #00EEFF;
+
+}
+.block{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.boc1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+  
+}
+.boc2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+   
+}
+.block1 img{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #1F242D;
+
+}
+.block2 img{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #1F242D;
+
+}
+section{
+    background-color: #323946;
+}
+head{
+    font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.inone input{
+    width: 343px;
+    height: 55px;
+    border-radius: 8px ;
+    background-color: #323946;
+  
+}
+.inone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.intwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.intwo input{
+    width: 343px;
+    height: 55px;
+    border-radius: 8px ;
+    background-color: #323946;
+  
+}
+.inthree input{
+    border-radius: 8px ;
+    background-color: #323946;
+    width: 700px;
+    height: 280px;
+  
+}
+.inthree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    margin-top: 30px;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #323946;
+}
+footer p{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+margin-left: 140px;
+position: relative;
+top: 40px;
+}
+footer img{
+    position: relative;
+top: 10px;
+left: 1200px;
+}
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+    .menu {
+        margin-left: 0;
+        margin-top: 10px;
+        gap: 20px;
+        font-size: 14px;
+    }
+
+    .menu li {
+        font-size: 15px;
+    }
+
+    h2 {
+        margin-left: 20px;
+        font-size: 24px;
+    }
+
+    .big {
+        font-size: 40px;
+    }
+
+    .blue {
+        font-size: 28px;
+    }
+
+    .lorem {
+        width: 100%;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+    button {
+        width: 160px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: 290px;
+        top: -200px;
+    }
+
+    .pic {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-left: 0;
+        gap: 10px;
+    }
+
+    .pro {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        top: -200px;
+        bottom: 500px;
+    }
+
+    .box {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .box img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text1 {
+        font-size: 22px;
+    }
+
+    .text2 {
+        font-size: 14px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boc1,
+    .boc2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer p {
+        font-size: 14px;
+        margin-left: 20px;
+        top: 10px;
+    }
+
+    footer img {
+        position: relative;
+        top: 10px;
+        left: 0;
+        margin-top: 20px;
+        margin-left: 620px;
+    }
+}
+
+@media only screen  and (max-width: 480px) {
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu li {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .big {
+        font-size: 35px;
+    }
+
+    .blue {
+        font-size: 24px;
+    }
+
+    .lorem {
+        font-size: 12px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    button {
+        width: 150px;
+        height: 35px;
+        margin-left: 10px;
+        top: -300px;
+    }
+
+    .pic {
+        margin-top: 20px;
+    }
+
+    .pro {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        top: -100px;
+    }
+
+    .box {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .text1 {
+        font-size: 20px;
+    }
+
+    .text2 {
+        font-size: 12px;
+    }
+
+    footer {
+        height: 80px;
+    }
+
+    footer p {
+        font-size: 12px;
+        margin-left: 10px;
+        top: 5px;
+    }
+}
+.but{
+    width: 176.59px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 0px #00EEFF;
+    background-color: #00EEFF;
+    position: relative;
+    top: 180px;
+    left: 650px;
+    font-weight: 900;
+}
